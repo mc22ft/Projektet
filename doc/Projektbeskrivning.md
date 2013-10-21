@@ -6,14 +6,14 @@ Projektmedlemmar:
 
 ## Beskrivning av projektet
 *En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
-*Jag tänker mig ett mat community. Där själva syftet eller iden är att användaren erbjuder en maträtt till andra användare. Vi tar i detta exempel
+Jag tänker mig ett mat community. Där själva syftet eller iden är att användaren erbjuder en maträtt till andra användare. Vi tar i detta exempel
 en lunch. Användaren kommer ha en maträtt att erbjuda och plats och tid när detta kan hämtas upp. Allt beställs och betalas dagen innan.
 Jag tror på detta upplägg. Många som jobbar är trötta på luncherna ute på restaurangerna. Det kanske inte finns så stort utbud. Många som vill veta 
 vad dom stoppar i sig. Många olika dieter som snurrar runt. Media tar upp detta ämne konstant.
 Om man ser det från andra sidan. Kocken. Det är "inne" och laga mat idag. Många tycker det är roligt. Massa matlagnings program på tv. Det Kocken
 får ut av detta. Alltså en liten "morot". Pengar, man tag ut en slant för maträtten. Och så får man betyg för sina kock konster.
 Iden kommer fårn min bror. Jag frågade honom om han hade något projekt jag kunde göra. Han är själv i branschen. Han nämnde att han hört talas om 
-detta upplägg i ett annat land.*
+detta upplägg i ett annat land.
 
 ## Tekniker
 *Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
