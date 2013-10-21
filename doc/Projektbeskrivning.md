@@ -1,10 +1,8 @@
 # My Food to Love!
 Projektmedlemmar: 
-[Mathias Claesson](https://github.com/tstjostudent)
+[Mathias Claesson](https://github.com/mc22ft)
 
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
-
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
+[Exekverbar version av projektet](http://mc22ft.github.io/ProjektskelettHT13)
 
 ## Beskrivning av projektet
 *En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
