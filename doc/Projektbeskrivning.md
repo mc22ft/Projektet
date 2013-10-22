@@ -22,16 +22,14 @@ Jag skulle vilja prova på något av dom. Jag vet inte till 100% vad det är i d
 motiverar jag med att jag inte bisitter en konstnärs egenskaper.
 
 ## Begränsningar
-Det som stoppar upp mig är ju lagring av användare. Inloggningar. Lägga till foto. Lägga till Recept. Geonavigation. osv...
+Det som stoppar upp mig är ju lagring av användare. Inloggningar. Lägga till foto. Lägga till Recept. Geonavigation. 
+osv... Tiden ser jag oxå som ett hinder. Jag måste inse mina begränsningar på vägen och inte fastna för mycket på olika 
+moment.
 
 ## Förstudier
 Jag har studerat på den befintliga sidan som finns i dags lägget. Tagit själva iden och funktionerna som finns på Main 
 sidan. Jag har skappat ett konto. Men på grund av geografiska konflikter har jag inte kunnat komma vidare. Så allt 
-som finns "bakom" Main har jag fått skapa själv. 
-
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+som finns "bakom" Main kommer jag fått skapa själv. 
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
-
+[Länk till mitt GANTT-schema.](https://docs.google.com/spreadsheet/ccc?key=0AtcRxWu_VzJGdF9xbjQtWEdnd25RRmlzX19hODRkN0E&usp=sharing)
