@@ -1,5 +1,5 @@
 # My Food to Love!
-Projektmedlemmar: 
+Projektmedlem: 
 [Mathias Claesson](https://github.com/mc22ft)
 
 [Exekverbar version av projektet](http://mc22ft.github.io/ProjektskelettHT13)
