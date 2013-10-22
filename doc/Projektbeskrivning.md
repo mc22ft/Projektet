@@ -20,6 +20,7 @@ projekt jag kunde göra. Han är själv i branschen. Han nämnde att han hört t
 Jag hade tänkt att använda mig av Bootstrap eller The semantic grid. Boilerplate. Jag ska titta närmare på detta.
 Jag skulle vilja prova på något av dom. Jag vet inte till 100% vad det är i dagsläget, hur det fungerar. Men detta 
 motiverar jag med att jag inte bisitter en konstnärs egenskaper.
+Jag kommer använda mig av dom nya HTML5 och css3 funktionerna.
 
 ## Begränsningar
 Det som stoppar upp mig är ju lagring av användare. Inloggningar. Lägga till foto. Lägga till Recept. Geonavigation. 
