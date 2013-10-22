@@ -5,16 +5,18 @@ Projektmedlem:
 [Exekverbar version av projektet](http://mc22ft.github.io/ProjektskelettHT13)
 
 ## Beskrivning av projektet
-Jag tänker mig ett mat community för amatör kockar (privat personer). Där själva syftet eller idén är att användaren 
-erbjuder en maträtt till andra användare. Vi tar i detta exempel en lunch. Användaren kommer ha en (vecko) matsedel 
-att erbjuda olika maträtter. Information om plats och tid när detta kan hämtas upp. Allt beställs och betalas dagen 
-innan. Användaren som är intresserad. Kan se vad som erbjuds i området där han/hon kommer befinna sig. 
-Jag tror på detta upplägg. Många som jobbar är trötta på luncherna ute på restaurangerna. Det kanske inte finns så 
-stort utbud. Många som vill veta vad dom stoppar i sig. Många olika dieter som snurrar runt. Media tar upp detta ämne 
-konstant. Om man ser det från andra sidan. Kocken. Det är "inne" och laga mat idag. Många tycker det är roligt. Massa
-matlagnings program på tv. Det Kocken får ut av detta. Alltså en liten "morot". Pengar, man tag ut en slant för
-maträtten. Och så får man betyg för sina kock konster. Iden kommer från min bror. Jag frågade honom om han hade något 
-projekt jag kunde göra. Han är själv i branschen. Han nämnde att han hört talas om detta upplägg i ett annat land.
+Jag tänker mig ett mat community för amatör kockar (privat personer). Där själva syftet eller idén är att kocken 
+lagar en matlåda till andra användare. Antagligen till lunch eller middag.
+Användaren som är intresserad av köpa en matlåd eller bara vill se vad som erbjuds. Kan se detta på en karta. På 
+så sätt kan användaren beställa lunch eller middag. Mottagaren kan hämta upp matlådan i närheten där han jobbar eller 
+eventuellt få det levererat till en adress.
+Jag tror på detta upplägg. Många som jobbar är trötta på den mat som erbjuds ute på restaurangerna och/eller orkar
+inte laga mat. Det kanske inte finns så stort utbud. Många som vill veta vad dom stoppar i sig. Många olika dieter 
+som snurrar runt. Media tar upp detta ämne konstant. Om man ser det från andra sidan. Kocken. Det är "inne" och laga 
+mat idag. Många tycker det är roligt. Massa matlagnings program på tv. Det Kocken får ut av detta. Alltså en liten 
+"morot". Pengar, man tag ut en slant för maträtten. Och så får man betyg för sina kock konster. Iden kommer från min 
+bror. Jag frågade honom om han hade något projekt jag kunde göra. Han är själv i branschen. Han nämnde att han hört 
+talas om detta upplägg i ett annat land.
 
 ## Tekniker
 Jag hade tänkt att använda mig av Bootstrap eller The semantic grid. Boilerplate. Jag ska titta närmare på detta.
