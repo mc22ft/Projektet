@@ -1,0 +1,70 @@
+h1 {
+    background-color:red;
+    }
+
+body {
+background-image:url('pics/bg4.png');
+background-size: 30%;
+}
+
+.front1 {
+    width:130%;
+    -webkit-transform: rotate(-3deg);
+}
+.front2 {
+    width:150%;
+    -webkit-transform: rotate(1deg);
+}
+.front3 {
+    width:130%;
+    -webkit-transform: rotate(1deg);
+}
+.row {
+    margin-top:80px;
+    margin-left:-120px;
+}
+.row img {
+    box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 767px) {
+    
+    body {
+        background-image:url('');
+    
+    }
+    
+    .front1 {
+        width:100%;
+    -webkit-transform: rotate(0deg);
+    }
+    
+    .pic-1 {
+        margin-top:-40px;
+         text-align: center;
+    }
+    
+    
+    
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .front2 {
+    width:50%;
+    -webkit-transform: rotate(0deg);
+   
+}
+
+    .pic-2 {
+        
+         text-align: center;
+    }
+
+}

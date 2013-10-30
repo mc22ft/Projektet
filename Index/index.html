@@ -1,22 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
     <head>
-        <title>Projekt 2013 med Leitet</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+        <title>Eat My Food!</title>
+       
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
         
         
     </head>
     <body>
+    
+    <div id="container">
+    
+        <header>
+           
+          
+        
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                     
+                     <div class="hidden-xs"> 
+                     <a href="#" class="navbar-brand" data-toggle="collapse" href="#menuCenter">Eat My Food!</a>
+                    </div>
+                    
+                    <div class="visible-xs">
+                     <button class="navbar-brand btn btn-mini">Sign in</button>
+                     </div>
+                     
+                     
+                    <buttom class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </buttom>
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Hem</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </nav>
+          
+            <header>
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-2 hidden-sm pic-1">
+                       <img class="img-rounded front1" src="css/pics/front1.jpg" alt="Food image"/>
+                    </div>
+                    
+                    
+                    <div class="col-md-2 col-md-offset-1 hidden-xs pic-2">
+                         <img class="img-rounded front2" src="css/pics/front2.jpg" alt="Food image"/>
+                    </div>
+                    
+                    
+                    <div class="col-md-2 col-md-offset-1 hidden-sm hidden-xs">
+                         <img class="img-rounded front3" src="css/pics/front3.jpg" alt="Food image"/>
+                    </div>
+                    
+                </div>
+                    
+                    
+                </div>
+                
+                
+                
+            </header>
             
             <h1>Hello, Mathias</h1>
             
+            <p data-toggle="collapse" data-target="#viewdetails">TESTAR detta ska försvinna eller komma fram!</p>
             
             
-         <script arc="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
-         <script arc="js/bootstrap.js"></script>
+            
+            <div class="hidden-xs">
+            <p>Hello World!</p>
+            </div>
+            
+            <div>Using hidden</div>
+<div class="hidden-sm hidden-md">hidden-sm hidden-md</div>
+<div class="hidden-sm hidden-lg">hidden-sm hidden-lg</div>
+<div class="hidden-md hidden-lg">hidden-md hidden-lg</div>
+<div>Theoretical equivalent using visible</div>
+<div class="visible-lg">hidden-sm hidden-md</div>
+<div class="visible-md">hidden-sm hidden-lg</div>
+<div class="visible-sm">hidden-md hidden-lg</div>
+            
+            
+            
+            
+        </header>   
+        <footer>
+            <footer class="navbar navbar-default navbar-fixed-bottom">
+                <div class="container">
+                    <p class="navbar-text">Mathias Claessson Footer</p>
+                </div>
+                
+            </footer>
+        </footer>
+    </div>
+         <script src="//code.jquery.com/jquery.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+         
     </body>
     
 </html>
