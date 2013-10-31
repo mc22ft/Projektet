@@ -26,6 +26,73 @@ background-size: 30%;
 .row img {
     box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
 }
+.main-text {
+    text-align:center;
+}
+
+.last-footer {
+    
+    margin-bottom:0;
+    padding-bottom: 0;
+    margin-top:40px;
+}
+
+.panel-body {
+    width:300px;
+    margin:0 auto;
+    
+}
+
+
+.main-text p {
+        margin: 0 20px 20px 20px;
+    }
+.join-text {
+        font-size:30px;
+        
+    }
+    
+.form-group  {
+        text-align:center;
+        margin:0 30px 0 30px;
+}
+    
+.buttom-mobil {
+        text-align:center;
+}
+    
+.form-group input {
+        margin-bottom:10px;
+}
+    
+
+
+.pics-link li {
+    margin-left: auto;
+     margin-right: auto;
+   float:left;
+   list-style: none;
+   
+  
+}
+.pics-link li a {
+display: block;
+
+}
+
+.text-link { 
+  clear:both;
+}
+
+.text-link li { background-color:green;
+    
+    }
+
+a {
+    
+}
+
+
 
 
 /* RESPONSIVE CSS
@@ -35,16 +102,34 @@ background-size: 30%;
     
     body {
         background-image:url('');
-    
     }
+    
+    h1 {
+        color:white;
+        background:rgba(0,0,0,0.4);
+        z-index:100;
+        position:relative;
+        text-align:center;
+        font-size:40px;
+        margin-top:-100px;
+        margin-bottom:20px;
+        padding:20px 0 20px 0;
+    }
+    
+    .row img {
+    box-shadow:3px 3px 5px rgba(0, 0, 0, 0);
+}
     
     .front1 {
         width:100%;
+        border-radius: 0;
     -webkit-transform: rotate(0deg);
     }
     
     .pic-1 {
-        margin-top:-40px;
+        
+        position:relative;
+        margin-top:-80px;
          text-align: center;
     }
     
@@ -56,14 +141,18 @@ background-size: 30%;
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+.row {
+    
+}
     .front2 {
     width:50%;
+    border-radius: 0;
     -webkit-transform: rotate(0deg);
    
 }
 
     .pic-2 {
-        
+        margin-top:-40px;
          text-align: center;
     }
 
