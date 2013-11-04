@@ -88,7 +88,8 @@ background-size: 100%;
      
 }
 
-.navbar-right {
+.navleft {
+    float:right;
  
 }
 
@@ -99,7 +100,6 @@ background-size: 100%;
     padding-bottom:3px;
    
 }
-
 
 .photo {
     width:80px;
@@ -116,9 +116,7 @@ background-size: 100%;
 }
 
 .last-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+   
 }
 
 .head {
@@ -129,10 +127,13 @@ background-size: 100%;
 .blogg-links li {
     width:100%;
 }
-
+.name {
+    clear:both;
+}
 /*----    skiss css inlänk      -----*/
 .skiss {
-  content: url('pics/skiss.jpg');
+  float:left;
+  margin-left:10px;
 }
 .skiss {
   display: block;
