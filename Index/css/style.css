@@ -87,6 +87,10 @@ background-size: 30%;
      
 }
 
+.navbar-right {
+ 
+}
+
 .login {
     width:30%;
     position: relative;
@@ -97,7 +101,6 @@ background-size: 30%;
 
 
 
-
 /*==============================================================================*/
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -105,8 +108,6 @@ background-size: 30%;
     
     body {
         background-image:url('');
-        
-        
     }
     
     h1 {
@@ -135,10 +136,8 @@ background-size: 30%;
     .pic-1 {
         position:relative;
         margin-top:-100px;
-        
-         text-align: center;
+        text-align: center;
     }
-    
     
     
     
@@ -157,16 +156,15 @@ background-size: 30%;
         -webkit-transform: rotate(0deg);
        
     }
-    
         .pic-2 {
             margin-top:-40px;
              text-align: center;
         }
-    
-    }
+
+     
+}
 
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+
 
 
