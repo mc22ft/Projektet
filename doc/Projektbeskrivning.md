@@ -36,3 +36,8 @@ som finns "bakom" Main kommer jag fått skapa själv.
 
 ## Tidsplanering
 [Länk till mitt GANTT-schema.](https://docs.google.com/spreadsheet/ccc?key=0AtcRxWu_VzJGdF9xbjQtWEdnd25RRmlzX19hODRkN0E&usp=sharing)
+
+## Begränsningar Del 2
+Efter många timmat och slit så har jag kommit fram till en del. Börjar med Bootstrap. Verkligen ett underbart sätt att få 
+fram en sajt på snabbt sätt. Men också ett nytt tänk. Som tog mycket tid i början. Blev att man fastnade mellan bootstrap 
+och det vi lärt oss.
