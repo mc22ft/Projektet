@@ -64,184 +64,49 @@ background-size: 30%;
         margin-bottom:10px;
 }
 
-.row-icon a {
-
-}
-
 .row-icon img {
     display:block;
-   
 }
-    
-.test1 {
-    width:40px;
-}
-.test2 {
-    width:40px;
-}
-.test3 {
-    width:40px;
-}
-.test4 {
-    width:40px;
-}
-
-
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (max-width: 767px) {
-    
-    body {
-        background-image:url('');
-    }
-    
-    h1 {
-        color:white;
-        background:rgba(0,0,0,0.4);
-        z-index:100;
-        position:relative;
-        text-align:center;
-        font-size:40px;
-        margin-top:-100px;
-        margin-bottom:20px;
-        padding:20px 0 20px 0;
-    }
-    
-    .row img {
-    box-shadow:3px 3px 5px rgba(0, 0, 0, 0);
-}
-    
-    .front1 {
-        width:100%;
-        border-radius: 0;
-    -webkit-transform: rotate(0deg);
-    }
-    
-    .pic-1 {
-        
-        position:relative;
-        margin-top:-80px;
-         text-align: center;
-    }
-    
-    
-    
-    
-}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-.row {
-    
-}
-    .front2 {
-    width:50%;
-    border-radius: 0;
-    -webkit-transform: rotate(0deg);
-   
-}
-
-    .pic-2 {
-        margin-top:-40px;
-         text-align: center;
-    }
-
-}
-h1 {
-    background-color:red;
-    }
-
-body {
-background-image:url('pics/bg4.png');
-background-size: 30%;
-}
-
-.front1 {
-    width:130%;
-    -webkit-transform: rotate(-3deg);
-}
-.front2 {
+.row-icon {
     width:150%;
-    -webkit-transform: rotate(1deg);
-}
-.front3 {
-    width:130%;
-    -webkit-transform: rotate(1deg);
-}
-.row-pic {
-    margin-top:80px;
-    margin-left:-120px;
-}
-.row-pic img {
-    box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
-}
-.main-text {
-    text-align:center;
-}
+    }
+    
 
 .last-footer {
-    
-    margin-bottom:0;
-    padding-bottom: 0;
-    margin-top:40px;
+    margin-bottom:-20px;
 }
 
 .panel-body {
-        margin:0 auto;
+    background:rgba(0,0,0,0.8);
     
 }
-
-
-.main-text p {
-        margin: 0 20px 20px 20px;
-    }
-.join-text {
-        font-size:30px;
-        
-    }
-    
-.form-group  {
-        text-align:center;
-        margin:0 30px 0 30px;
-}
-    
-.buttom-mobil {
-        text-align:center;
-}
-    
-.form-group input {
-        margin-bottom:10px;
+.panel-footer {
+    background:rgba(0,0,0,0.9);
+     border-radius: 0;
+     text-align:center;
+     
 }
 
-.row-icon a {
-
-}
-
-.row-icon img {
-    display:block;
+.login {
+    width:30%;
+    position: relative;
+    margin-top:10px;
+    padding-bottom:3px;
    
 }
-    
-.test1 {
-    width:40px;
-}
-.test2 {
-    width:40px;
-}
 
 
 
 
+/*==============================================================================*/
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
 @media (max-width: 767px) {
     
     body {
         background-image:url('');
+        
+        
     }
     
     h1 {
@@ -256,7 +121,8 @@ background-size: 30%;
         padding:20px 0 20px 0;
     }
     
-    .row img {
+    
+    .row-pic img {
     box-shadow:3px 3px 5px rgba(0, 0, 0, 0);
 }
     
@@ -267,9 +133,9 @@ background-size: 30%;
     }
     
     .pic-1 {
-        
         position:relative;
-        margin-top:-80px;
+        margin-top:-100px;
+        
          text-align: center;
     }
     
@@ -278,22 +144,29 @@ background-size: 30%;
     
 }
 
+ 
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-.row {
+    .row {
+        
+    }
+        .front2 {
+        width:50%;
+        border-radius: 0;
+        -webkit-transform: rotate(0deg);
+       
+    }
     
-}
-    .front2 {
-    width:50%;
-    border-radius: 0;
-    -webkit-transform: rotate(0deg);
-   
-}
-
-    .pic-2 {
-        margin-top:-40px;
-         text-align: center;
+        .pic-2 {
+            margin-top:-40px;
+             text-align: center;
+        }
+    
     }
 
-}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
