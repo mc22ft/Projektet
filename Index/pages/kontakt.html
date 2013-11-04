@@ -16,7 +16,7 @@
     
     <div id="container">
     
-        <header>
+        <header class="header-kontakt">
         
             <nav class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
@@ -37,12 +37,10 @@
                     </buttom>
                     <div class="navleft collapse navbar-collapse navHeaderCollapse ">
                         
-                        
-                        
                         <ul class="nav navbar-nav navbar-right ">
-                            <li class="active"><a href="#">Hem</a></li>
-                            <li><a href="pages/blogg">Blog</a></li>
-                            <li><a href="#">Om oss</a></li>
+                            <li class="active"><a href="../index.html">Hem</a></li>
+                            <li><a href="blogg.html">Blog</a></li>
+                            <li><a href="omoss.html">Om oss</a></li>
                             <li><a href="#">Kontakt</a></li>
                         </ul>
                     </div>    
@@ -50,6 +48,59 @@
                     
                 </div>
             </nav>
+        
+        <!-- formulär! -->
+        
+        <!-- Contacts -->
+ <div id="contacts">
+   <div class="row">        
+     <!-- Alignment -->
+        <div class="col-sm-offset-3 col-sm-6">
+           <!-- Form itself -->
+          <form name="sentMessage" class="well" id="contactForm"  novalidate>
+               <legend>Contact me</legend>
+                 <div class="control-group">
+                    <div class="controls">
+                        <input type="text" class="form-control" placeholder="Full Name" id="name" required
+                                   data-validation-required-message="Please enter your name" />
+                          <p class="help-block"></p>
+                   </div>
+                 </div>         
+                <div class="control-group">
+                  <div class="controls">
+                        <input type="email" class="form-control" placeholder="Email" 
+                                               id="email" required
+                                              data-validation-required-message="Please enter your email" />
+                </div>
+            </div>         
+                      
+                      <select class="form-control">
+                        <option value="Fråga om??">Fråga om?</option>
+                        <option value="Mat">Mat</option>
+                        <option value="Beställning">Beställning</option>
+                        <option value="Kontakt">Kontakt</option>
+                        <option value="Om mitt konto">Om mitt konto</option>
+                        <option value="Ge feedback">Ge feedback</option>
+                      </select>
+                          
+               <div class="control-group">
+                 <div class="controls">
+                                 <textarea rows="10" cols="100" class="form-control" 
+                       placeholder="Message" id="message" required
+                       data-validation-required-message="Please enter your message" minlength="5" 
+                       data-validation-minlength-message="Min 5 characters" 
+                        maxlength="999" style="resize:none"></textarea>
+                </div>
+               </div>                  
+             <div id="success"> </div> <!-- For success/fail messages -->
+            <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+            
+          </form>
+        </div>
+      </div>
+    </div>
+        
+        
         
         
         
@@ -60,7 +111,7 @@
              <class ="myInfo"> 
                <strong class="fn">Mathias Claesson</strong>
                <br/>
-               <span class="title">Chefredaktör</span> på <span class="org">Plugg och Blogg!</span>
+               <span class="title">VD</span> på <span class="org">Eat My Food!</span>
                <br/>
                <section class="adr">
                    <span class="street-address">Hammarby Allé 132</span>
@@ -75,49 +126,41 @@
             </section> 
                   
             
-            
     </header>
             
                 <footer class="last-footer">
                     <div class="panel panel-default">
-                      <div class="panel-body">
-                      
-                                      <div class="row">
-                                          <div class="row-icon">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="row-icon">
                                           
-                                              <div class="col-xs-2 col-sm-3">
-                                                  <a  href="www.facebook.com"><img src="css/pics/facebook.png" alt"Facebook"/></a>
-                                                  </div>
-                                                  
-                                                  <div class="col-xs-2 col-sm-3">
-                                                  <a  href="www.facebook.com"><img src="css/pics/twitter.png" alt"Facebook"/></a>
-                                                  </div>
-                                                  
-                                                  <div class="col-xs-2 col-sm-3">
-                                                  <a  href="www.facebook.com"><img src="css/pics/email.png" alt"Facebook"/></a>
-                                                  </div>
-                                                  
-                                                  <div class="col-xs-2 col-sm-3">
-                                                  <a  href="www.facebook.com"><img src="css/pics/rss-feeds.png" alt"Facebook"/></a>
-                                                  </div>
-                                              
-                                          </div>
+                                    <div class="col-xs-2 col-sm-3">
+                                    <a  href="www.facebook.com"><img src="css/pics/facebook.png" alt"Facebook"/></a>
                                     </div>
-                            
-                               
+                                      
+                                    <div class="col-xs-2 col-sm-3">
+                                    <a  href="www.facebook.com"><img src="css/pics/twitter.png" alt"Facebook"/></a>
+                                    </div>
+                                      
+                                    <div class="col-xs-2 col-sm-3">
+                                    <a  href="www.facebook.com"><img src="css/pics/email.png" alt"Facebook"/></a>
+                                    </div>
+                                      
+                                    <div class="col-xs-2 col-sm-3">
+                                    <a  href="www.facebook.com"><img src="css/pics/rss-feeds.png" alt"Facebook"/></a>
+                                    </div>
+                                              
+                                </div>
+                            </div>
+                        </div>
+                     
+                        <div class="panel-footer">
+                            <p>Made by Mathias Claesson wp2013</p>
+                        </div>
                         
-                      </div>
-                     
-                     
-                     
-                      <div class="panel-footer">
-                      
-                       <p>Made by Mathias Claesson wp2013</p>
-                      
-                      </div>
                     </div>
                 </footer>
-        </footer>
+                
     
     </div>
          <script src="//code.jquery.com/jquery.js"></script>
