@@ -38,10 +38,10 @@
                     <div class="navleft collapse navbar-collapse navHeaderCollapse ">
                         
                         <ul class="nav navbar-nav navbar-right ">
-                            <li class="active"><a href="../index.html">Hem</a></li>
+                            <li><a href="../index.html">Hem</a></li>
                             <li><a href="blogg.html">Blogg</a></li>
                             <li><a href="omoss.html">Om oss</a></li>
-                            <li><a href="#">Kontakt</a></li>
+                            <li class="active"><a href="#">Kontakt</a></li>
                         </ul>
                     </div>    
                     
@@ -58,10 +58,10 @@
         <div class="col-sm-offset-3 col-sm-6">
            <!-- Form itself -->
           <form name="sentMessage" class="well" id="contactForm"  novalidate>
-               <legend>Contact me</legend>
+               <legend>Kontakta oss:</legend>
                  <div class="control-group">
                     <div class="controls">
-                        <input type="text" class="form-control" placeholder="Full Name" id="name" required
+                        <input type="text" class="form-control" placeholder="Förnamn" id="name" required
                                    data-validation-required-message="Please enter your name" />
                           <p class="help-block"></p>
                    </div>
@@ -72,7 +72,7 @@
                                                id="email" required
                                               data-validation-required-message="Please enter your email" />
                 </div>
-            </div>         
+                </div>         
                       
                       <select class="form-control">
                         <option value="Fråga om??">Fråga om?</option>
@@ -86,7 +86,7 @@
                <div class="control-group">
                  <div class="controls">
                                  <textarea rows="10" cols="100" class="form-control" 
-                       placeholder="Message" id="message" required
+                       placeholder="Meddelande" id="message" required
                        data-validation-required-message="Please enter your message" minlength="5" 
                        data-validation-minlength-message="Min 5 characters" 
                         maxlength="999" style="resize:none"></textarea>
@@ -105,7 +105,8 @@
         
         
           <!-- hCard -->
-            <section id="hcard-Mathias-Claesson" class="vcard">
+          
+            <section id="hcard-Mathias-Claesson" class="vcard hidden-xs">
                <img class="photo" src="../pics/mathias.JPG" />
                <br/>
              <class ="myInfo"> 
