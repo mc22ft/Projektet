@@ -3,6 +3,74 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       
+    
+    <!--
+    Include the maps javascript with sensor=true because this code is using a
+    sensor (a GPS locator) to determine the user's location.
+    See: https://developers.google.com/maps/documentation/javascript/tutorial#Loading_the_Maps_API
+    -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
+    <script>
+// Note: This example requires that you consent to location sharing when
+// prompted by your browser. If you see a blank space instead of the map, this
+// is probably because you have denied permission for location sharing.
+
+var map;
+
+function initialize() {
+  var mapOptions = {
+    zoom: 6,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+  // Try HTML5 geolocation
+  
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = new google.maps.LatLng(position.coords.latitude,
+                                       position.coords.longitude);
+
+      var infowindow = new google.maps.InfoWindow({
+        map: map,
+        position: pos,
+        content: 'Location found using HTML5.'
+      });
+
+      map.setCenter(pos);
+    }, function() {
+      handleNoGeolocation(true);
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleNoGeolocation(false);
+  }
+}
+
+function handleNoGeolocation(errorFlag) {
+  if (errorFlag) {
+    var content = 'Error: The Geolocation service failed.';
+  } else {
+    var content = 'Error: Your browser doesn\'t support geolocation.';
+  }
+
+  var options = {
+    map: map,
+    position: new google.maps.LatLng(60, 105),
+    content: content
+  };
+
+  var infowindow = new google.maps.InfoWindow(options);
+  map.setCenter(options.position);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+    
     
         <title>Eat My Food!</title>
        
@@ -76,36 +144,67 @@
                 
                 <p>Hitta riktig mat nära dig eller dela med dig av din hemlagade mat.</p>
                 
-                <p class="join-text">Kom igång nu!</p>
-                
             </header>
             
-            <form class="form-group" action="" method="post">
-            
-                <label for="firstname" class="col-lg-2 control-label hidden-xs">Name:</label>
-                <div class="col-lg-10">
-                    <input type="text" class="form-control" id="firstname" placeholder="Förnamn...">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                  
+                    <p class="join-text">Kom igång nu!</p>
+                  
+                    <form class="form-group" action="" method="post">
+                        <label for="firstname" class="col-lg-2 control-label hidden-xs">Name:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="firstname" placeholder="Förnamn...">
+                            </div>
+                        <label for="lastname" class="col-lg-2 control-label hidden-xs">Efternamn:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="lastname" placeholder="Efternamn...">
+                            </div>
+                        <label for="email" class="col-lg-2 control-label hidden-xs">Email:</label>
+                            <div class="col-lg-10">
+                                 <input type="email" class="form-control" id="email" placeholder="DinEmail@Här.Nu">
+                            </div>
+                        <label for="password" class="col-lg-2 control-label hidden-xs">Efternamn:</label>
+                            <div class="col-lg-10">
+                                <input type="password" class="form-control" id="password" placeholder="Lösenord">
+                            </div>
+                     </form>
+                        <div class="buttom-mobil">
+                            <buttom class="btn btn-primary" type="submit">Skicka!</buttom>
+                        </div>
+                    </div>
+                  
+                  
+                  
+                  
+                  
+                  <div class="col-md-6">
+                  
+                   <p class="join-text">Mat nära dig!!</p>
+                  
+                        <div class="map">
+                            <div id="map-canvas"></div>
+                        </div>
+                      
+                      
+                      
+                      
+                  </div>
+                  
+                  
+                  
+                  
+                  
                 </div>
-                
-                <label for="lastname" class="col-lg-2 control-label hidden-xs">Efternamn:</label>
-                <div class="col-lg-10">
-                    <input type="text" class="form-control" id="lastname" placeholder="Efternamn...">
-                </div>
-                
-                <label for="email" class="col-lg-2 control-label hidden-xs">Email:</label>
-                <div class="col-lg-10">
-                    <input type="email" class="form-control" id="email" placeholder="DinEmail@Här.Nu">
-                </div>
-                
-                <label for="password" class="col-lg-2 control-label hidden-xs">Efternamn:</label>
-                <div class="col-lg-10">
-                    <input type="password" class="form-control" id="password" placeholder="Lösenord">
-                </div>
-                
-            </form>
-            <div class="buttom-mobil">
-            <buttom class="btn btn-primary" type="submit">Skicka!</buttom>
             </div>
+            
+            
+            
+            
+            
+            
+            
         </header>
        
         
@@ -184,3 +283,4 @@
             
             
 -->
+

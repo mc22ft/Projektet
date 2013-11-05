@@ -1,6 +1,18 @@
+html, body, #map-canvas {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+.map {
+    height:400px; 
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 
 body {
-background-image:url('#');
+background-image:url('pics/bg-10.png');
 background-repeat: no-repeat;;
 background-size: 100%;
 
@@ -49,6 +61,7 @@ background-size: 100%;
     }
 .join-text {
         font-size:30px;
+        text-align:center;
         
     }
     
@@ -84,7 +97,7 @@ background-size: 100%;
 .panel-footer {
     background:rgba(0,0,0,0.9);
      border-radius: 0;
-     text-align:center;
+    
      
 }
 
