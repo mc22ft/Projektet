@@ -239,19 +239,18 @@ background-size:100% 100%;
 
 @media (min-width: 768px) and (max-width: 2000px) {
 
-    .row {
-        
-    }
-        .front2 {
-        width:50%;
-        border-radius: 0;
-        -webkit-transform: rotate(0deg);
+    
+    .front2 {
+    margin-left:110px;
+    width:50%;
+    border-radius: 0;
+    -webkit-transform: rotate(0deg);
        
     }
-        .pic-2 {
-            margin-top:-40px;
-             text-align: center;
-        }
+    .pic-2 {
+    margin-top:-40px;
+    text-align: center;
+    }
     .navleft {
     float:right;
  
@@ -264,7 +263,14 @@ background-size:100% 100%;
      
 }
 
+@media (min-width: 992px) and (max-width: 2000px) {
+.front2 {
+    width:150%;
+     margin-left:0;
+       
+    }
 
+}
 
 
 
